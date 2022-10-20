@@ -344,7 +344,7 @@ curl --location --request GET 'http://localhost:8080/metrics' \
 
 ## Graceful shutdown
 
-System supports graceful shutdown to use echo labstack code for that purpose added in start-up command
+System supports graceful shutdown as using echo labstack code for that purpose added in start-up command
 ```
 	// Wait for interrupt signal to gracefully shutdown the server with a timeout of 10 seconds.
 	// Use a buffered channel to avoid missing signals as recommended for signal.Notify
