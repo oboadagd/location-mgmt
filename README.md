@@ -57,7 +57,7 @@ Install golang 1.19.2
 
 Install docker
 
->> #### Ensure correct installation, strictly follow the steps below in order:
+> #### Make sure the installation is correct, strictly follow the steps below in order:
 
 ### Microservice 2 - location-history-mgmt
 
