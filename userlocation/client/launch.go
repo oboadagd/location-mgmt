@@ -28,9 +28,8 @@ func SaveLocation(ctx echo.Context, req dto.SaveLocationRequest) error {
 			err = errors.Wrap(err, "parse environment variables")
 			return err
 		}
+		addr = fmt.Sprintf("%s%s", recordtype.Cfg.GRPCHost, addr)
 	}
-
-	addr = fmt.Sprintf("%s%s", "location-history-mgmt-app-1", addr)
 
 	conn, err := grpc.Dial(addr, opts...)
 

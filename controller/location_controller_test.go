@@ -11,7 +11,7 @@ import (
 	"testing"
 )
 
-func TestSaveValidate2(t *testing.T) {
+func TestSaveValidate(t *testing.T) {
 	nameTest := "TestSaveValidate"
 
 	var err error
